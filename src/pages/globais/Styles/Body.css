@@ -1,0 +1,8 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    background-image: url('../imagens/Plano-De-Fundo1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}

@@ -1,0 +1,164 @@
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hotel-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
+}
+
+.hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-card > h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.favoritarButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+    padding: 0;
+    color: inherit;
+}
+
+.favoritarButton:focus {
+    outline: none;
+    background-color: transparent; 
+}
+
+
+.price {
+    font-size: 1.2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.description {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.editarButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 15px; 
+}
+
+.adicionarButton {
+    background-color: #b9bb61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 20px auto;
+    display: block;
+}
+
+.adicionarButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+.editarButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+.excluirButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.excluirButton:hover {
+    background-color: #c82333;
+    transform: scale(1.05); 
+}
+
+.pesquisaInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pesquisaInput {
+    width: 50%;
+    padding: 8px;
+    margin: 20px auto;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.pesquisaInput:focus {
+    border-color: #007BFF; /* Adiciona um destaque quando o input está em foco */
+}
+
+.verMais {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: #007BFF;
+    transition: color 0.3s;
+    text-decoration: none;
+}

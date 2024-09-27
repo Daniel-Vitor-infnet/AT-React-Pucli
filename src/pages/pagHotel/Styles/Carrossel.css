@@ -1,0 +1,50 @@
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+    transform: scale(1.02);
+}
+
+/* Miniaturas */
+.slick-thumb {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slick-thumb li {
+    width: 90px;
+    height: 70px;
+    margin: 0 6px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.slick-thumb li.slick-active {
+    border: 2px solid #e74c3c;
+}
+
+.slick-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.slick-thumb img:hover {
+    transform: scale(1.1);
+}

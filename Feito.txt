@@ -1,0 +1,3 @@
+2.Tela de Listagem de hotéis // Parcialmente feito falta "utilize o localStorage"
+
+3.Tela de Detalhes do Hotel // Parcialmente feito falta "utilize o localStorage" e adicionar mais estilos
